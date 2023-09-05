@@ -1,0 +1,14 @@
+digraph{ 
+rankdir=LR 
+s0 [shape=ellipse,fontname="Arial"] 
+s3[Shape=circle, peripheries=2]
+s2[Shape=circle, peripheries=2]
+s0->s1[label="a"] 
+s1->s2[label="a"]
+s2->s2[label="a"] 
+s2->s3[label="a"] 
+s2->s3[label="b"] 
+s3->s3[label="a"] 
+s3->s3[label="b"] 
+}
+
